@@ -1,0 +1,102 @@
+*{
+  box-sizing:border-box;
+  margin: 0
+}
+
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  padding-top: 20px;
+  font-family:arial;
+}
+
+header{                        /* IMPOSTAZIONE LOGO*/
+  text-align: center;
+  margin-top: 63px;
+  margin-left:1px;
+  margin-bottom: 5px;
+
+}
+
+header>img{                    /* RIDIMENSIONAMENTO LOGO*/
+  width: 20%;
+}
+
+header>h2{                     /* IMPOSTAZIONE TITOLO*/
+  color: limegreen;
+  font-weight:bolder;
+}
+
+nav{                            /* IMPOSTAZIONE SFONDO BUTTON*/
+  margin: auto;
+  background-color: limegreen;
+  width: 85%;
+  padding: 8px;
+}
+
+nav>span{              /* IMPOSTAZIONE PER RENDERE IL PIU' CENTRALE I BUTTON*/
+padding-left: 280px;
+}
+
+span>button{                   /* RIDIMENSIONAMENTO BUTTON*/
+  font-size: 10px;
+}
+
+main{                  /* IMPOSTAZIONE DEL MARGINE A SINISTRA E DEL COLORE BIANCO PER IL TESTO COMPRESO NEL TAG*/
+  margin-left: 8%;
+  color: white;
+}
+
+section{                       /* MARGINE IN ALTO*/
+  margin-top: 20px;
+}
+
+section>h3{                 /* ORA "H3" NON E' PIU' BLOCK MA IL CONTRARIO*/
+  display: inline-block;
+}
+section>p{                  /* ORA "P" E' BLOCK */
+  display: block;
+}
+
+.barraarancione>div{       /*FORMAZIONE DI UNA BARRA CON IL BACKGROUND-COLOR*/
+  background-color: orange;
+  width:280px;
+  height:20px;
+  border-radius: 5px;
+}
+
+.barraverde>div{           /*FORMAZIONE DI UNA BARRA CON IL BACKGROUND-COLOR*/
+  background-color: limegreen;
+  width:480px;
+  height:20px;
+  border-radius: 5px;
+}
+
+.barrarossa>div{         /*FORMAZIONE DI UNA BARRA CON IL BACKGROUND-COLOR*/
+  background-color: red;
+  width:120px;
+  height:20px;
+  border-radius: 5px;
+}
+
+.piccolo{               /*RIDIMENSIONAMENTO CARATTERE*/
+  font-size: 13px;
+  color: lightgrey;
+  line-height: 20px;
+}
+
+#unico{                                 /*SONDO NERO OPACO ALLO "0.5" CON BORDO NERO ARROTONDATO*/
+background-color:rgba(0, 0, 0, 0.5);
+margin: 25px 290px 0px;
+height: 600px;
+border: 1px solid black;
+border-radius: 10px;
+}
+
+footer{
+  padding-top:  50px;
+  padding-left: 10px;
+  font-size: 10px;
+  font-style: oblique;
+  text-decoration: overline underline;
+}
